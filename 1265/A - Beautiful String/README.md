@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1265/problem/A" target="_blank" rel="noopener noreferrer">1265A — Beautiful String</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1000 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1265A](https://codeforces.com/contest/1265/problem/A) |
+
+## Topics
+`constructive algorithms` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Beautiful String</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A string is called beautiful if no two consecutive characters are equal. For example, "<span class="tex-font-style-tt">ababcb</span>", "<span class="tex-font-style-tt">a</span>" and "<span class="tex-font-style-tt">abab</span>" are beautiful strings, while "<span class="tex-font-style-tt">aaaaaa</span>", "<span class="tex-font-style-tt">abaa</span>" and "<span class="tex-font-style-tt">bb</span>" are not.</p><p>Ahcl wants to construct a beautiful string. He has a string $$$s$$$, consisting of only characters '<span class="tex-font-style-tt">a</span>', '<span class="tex-font-style-tt">b</span>', '<span class="tex-font-style-tt">c</span>' and '<span class="tex-font-style-tt">?</span>'. Ahcl needs to replace each character '<span class="tex-font-style-tt">?</span>' with one of the three characters '<span class="tex-font-style-tt">a</span>', '<span class="tex-font-style-tt">b</span>' or '<span class="tex-font-style-tt">c</span>', such that the resulting string is beautiful. Please help him!</p><p>More formally, after replacing all characters '<span class="tex-font-style-tt">?</span>', the condition $$$s_i \neq s_{i+1}$$$ should be satisfied for all $$$1 \leq i \leq |s| - 1$$$, where $$$|s|$$$ is the length of the string $$$s$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains positive integer $$$t$$$ ($$$1 \leq t \leq 1000$$$) — the number of test cases. Next $$$t$$$ lines contain the descriptions of test cases.</p><p>Each line contains a non-empty string $$$s$$$ consisting of only characters '<span class="tex-font-style-tt">a</span>', '<span class="tex-font-style-tt">b</span>', '<span class="tex-font-style-tt">c</span>' and '<span class="tex-font-style-tt">?</span>'. </p><p>It is guaranteed that in each test case a string $$$s$$$ has at least one character '<span class="tex-font-style-tt">?</span>'. The sum of lengths of strings $$$s$$$ in all test cases does not exceed $$$10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case given in the input print the answer in the following format:</p><ul> <li> If it is impossible to create a beautiful string, print "<span class="tex-font-style-tt">-1</span>" (without quotes); </li><li> Otherwise, print the resulting beautiful string after replacing all '<span class="tex-font-style-tt">?</span>' characters. If there are multiple answers, you can print any of them. </li></ul></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0028259657832453877" id="id006688316066471139" class="input-output-copier">Copy</div></div><pre id="id0028259657832453877">3
+a???cb
+a??bbc
+a?b?c
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004294192893814044" id="id009694200254718608" class="input-output-copier">Copy</div></div><pre id="id004294192893814044">ababcb
+-1
+acbac
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, all possible correct answers are "<span class="tex-font-style-tt">ababcb</span>", "<span class="tex-font-style-tt">abcacb</span>", "<span class="tex-font-style-tt">abcbcb</span>", "<span class="tex-font-style-tt">acabcb</span>" and "<span class="tex-font-style-tt">acbacb</span>". The two answers "<span class="tex-font-style-tt">abcbab</span>" and "<span class="tex-font-style-tt">abaabc</span>" are incorrect, because you can replace only '<span class="tex-font-style-tt">?</span>' characters and the resulting string must be beautiful.</p><p>In the second test case, it is impossible to create a beautiful string, because the $$$4$$$-th and $$$5$$$-th characters will be always equal.</p><p>In the third test case, the only answer is "<span class="tex-font-style-tt">acbac</span>".</p></div>
