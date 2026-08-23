@@ -6,27 +6,30 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 15 |
+| 91 | 18 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [binary search](#binary-search) (3)
-- [brute force](#brute-force) (8)
-- [constructive algorithms](#constructive-algorithms) (8)
-- [dp](#dp) (5)
-- [games](#games) (2)
-- [geometry](#geometry) (1)
-- [graphs](#graphs) (1)
-- [greedy](#greedy) (17)
-- [implementation](#implementation) (32)
-- [math](#math) (43)
-- [number theory](#number-theory) (3)
+- [binary search](#binary-search) (5)
+- [brute force](#brute-force) (11)
+- [constructive algorithms](#constructive-algorithms) (11)
+- [dfs and similar](#dfs-and-similar) (1)
+- [dp](#dp) (6)
+- [games](#games) (3)
+- [geometry](#geometry) (2)
+- [graph matchings](#graph-matchings) (1)
+- [graphs](#graphs) (2)
+- [greedy](#greedy) (24)
+- [implementation](#implementation) (37)
+- [math](#math) (50)
+- [number theory](#number-theory) (4)
 - [schedules](#schedules) (1)
-- [sortings](#sortings) (8)
+- [sortings](#sortings) (10)
 - [strings](#strings) (4)
-- [two pointers](#two-pointers) (1)
+- [ternary search](#ternary-search) (1)
+- [two pointers](#two-pointers) (2)
 
 ---
 
@@ -37,6 +40,8 @@
 | 1260B | [Obtain Two Zeroes](https://codeforces.com/contest/1260/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1260/B%20-%20Obtain%20Two%20Zeroes/solution.cpp) |
 | 1345B | [Card Constructions](https://codeforces.com/contest/1345/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1345/B%20-%20Card%20Constructions/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
+| 1354C1 | [Simple Polygon Embedding](https://codeforces.com/contest/1354/problem/C1) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/C1%20-%20Simple%20Polygon%20Embedding/solution.cpp) |
+| 1359C | [Mixing Water](https://codeforces.com/contest/1359/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/C%20-%20Mixing%20Water/solution.cpp) |
 
 ### brute force
 
@@ -50,6 +55,9 @@
 | 1345B | [Card Constructions](https://codeforces.com/contest/1345/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1345/B%20-%20Card%20Constructions/solution.cpp) |
 | 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1351/B%20-%20Square%3F/solution.cpp) |
 | 1355A | [Sequence with Digits](https://codeforces.com/contest/1355/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/A%20-%20Sequence%20with%20Digits/solution.cpp) |
+| 1359A | [Berland Poker](https://codeforces.com/contest/1359/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/A%20-%20Berland%20Poker/solution.cpp) |
+| 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
+| 1363A | [Odd Selection](https://codeforces.com/contest/1363/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1363/A%20-%20Odd%20Selection/solution.cpp) |
 
 ### constructive algorithms
 
@@ -58,11 +66,20 @@
 | 330B | [Road Construction](https://codeforces.com/contest/330/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/330/B%20-%20Road%20Construction/solution.cpp) |
 | 1174C | [Ehab and a Special Coloring Problem](https://codeforces.com/contest/1174/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1174/C%20-%20Ehab%20and%20a%20Special%20Coloring%20Problem/solution.cpp) |
 | 1325A | [EhAb AnD gCd](https://codeforces.com/contest/1325/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1325/A%20-%20EhAb%20AnD%20gCd/solution.cpp) |
+| 1333A | [Little Artem](https://codeforces.com/contest/1333/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1333/A%20-%20Little%20Artem/solution.cpp) |
 | 1335B | [Construct the String](https://codeforces.com/contest/1335/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1335/B%20-%20Construct%20the%20String/solution.cpp) |
 | 1337A | [Ichihime and Triangle](https://codeforces.com/contest/1337/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1337/A%20-%20Ichihime%20and%20Triangle/solution.cpp) |
 | 1343B | [Balanced Array](https://codeforces.com/contest/1343/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1343/B%20-%20Balanced%20Array/solution.cpp) |
 | 1353A | [Most Unstable Array](https://codeforces.com/contest/1353/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1353/A%20-%20Most%20Unstable%20Array/solution.cpp) |
 | 1355D | [Game With Array](https://codeforces.com/contest/1355/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/D%20-%20Game%20With%20Array/solution.cpp) |
+| 1360C | [Similar Pairs](https://codeforces.com/contest/1360/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/C%20-%20Similar%20Pairs/solution.cpp) |
+| 1365B | [Trouble Sort](https://codeforces.com/contest/1365/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1365/B%20-%20Trouble%20Sort/solution.cpp) |
+
+### dfs and similar
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 
 ### dp
 
@@ -73,12 +90,14 @@
 | 1345B | [Card Constructions](https://codeforces.com/contest/1345/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1345/B%20-%20Card%20Constructions/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1355B | [Young Explorers](https://codeforces.com/contest/1355/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/B%20-%20Young%20Explorers/solution.cpp) |
+| 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
 
 ### games
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 959A | [Mahmoud and Ehab and the even-odd game](https://codeforces.com/contest/959/problem/A) | 800 | [C++14 (GCC 6-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/959/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20even-odd%20game/solution.cpp) |
+| 1365A | [Matrix Game](https://codeforces.com/contest/1365/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1365/A%20-%20Matrix%20Game/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### geometry
@@ -86,17 +105,26 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1312A | [Two Regular Polygons](https://codeforces.com/contest/1312/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1312/A%20-%20Two%20Regular%20Polygons/solution.cpp) |
+| 1354C1 | [Simple Polygon Embedding](https://codeforces.com/contest/1354/problem/C1) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/C1%20-%20Simple%20Polygon%20Embedding/solution.cpp) |
+
+### graph matchings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1360C | [Similar Pairs](https://codeforces.com/contest/1360/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/C%20-%20Similar%20Pairs/solution.cpp) |
 
 ### graphs
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 330B | [Road Construction](https://codeforces.com/contest/330/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/330/B%20-%20Road%20Construction/solution.cpp) |
+| 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 | 1238B | [Kill `Em All](https://codeforces.com/contest/1238/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1238/B%20-%20Kill%20%60Em%20All/solution.cpp) |
 | 1311A | [Add Odd or Subtract Even](https://codeforces.com/contest/1311/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1311/A%20-%20Add%20Odd%20or%20Subtract%20Even/solution.cpp) |
 | 1312A | [Two Regular Polygons](https://codeforces.com/contest/1312/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1312/A%20-%20Two%20Regular%20Polygons/solution.cpp) |
@@ -113,6 +141,12 @@
 | 1355B | [Young Explorers](https://codeforces.com/contest/1355/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/B%20-%20Young%20Explorers/solution.cpp) |
 | 1358A | [Park Lighting](https://codeforces.com/contest/1358/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1358/A%20-%20Park%20Lighting/solution.cpp) |
 | 1358B | [Maria Breaks the Self-isolation](https://codeforces.com/contest/1358/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1358/B%20-%20Maria%20Breaks%20the%20Self-isolation/solution.cpp) |
+| 1359A | [Berland Poker](https://codeforces.com/contest/1359/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/A%20-%20Berland%20Poker/solution.cpp) |
+| 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
+| 1360A | [Minimal Square](https://codeforces.com/contest/1360/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/A%20-%20Minimal%20Square/solution.cpp) |
+| 1360B | [Honest Coach](https://codeforces.com/contest/1360/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/B%20-%20Honest%20Coach/solution.cpp) |
+| 1360C | [Similar Pairs](https://codeforces.com/contest/1360/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/C%20-%20Similar%20Pairs/solution.cpp) |
+| 1365A | [Matrix Game](https://codeforces.com/contest/1365/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1365/A%20-%20Matrix%20Game/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### implementation
@@ -151,6 +185,11 @@
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1355A | [Sequence with Digits](https://codeforces.com/contest/1355/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/A%20-%20Sequence%20with%20Digits/solution.cpp) |
+| 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
+| 1362A | [Johnny and Ancient Computer](https://codeforces.com/contest/1362/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1362/A%20-%20Johnny%20and%20Ancient%20Computer/solution.cpp) |
+| 1363A | [Odd Selection](https://codeforces.com/contest/1363/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1363/A%20-%20Odd%20Selection/solution.cpp) |
+| 1365A | [Matrix Game](https://codeforces.com/contest/1365/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1365/A%20-%20Matrix%20Game/solution.cpp) |
+| 1365B | [Trouble Sort](https://codeforces.com/contest/1365/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1365/B%20-%20Trouble%20Sort/solution.cpp) |
 
 ### math
 
@@ -196,9 +235,16 @@
 | 1353A | [Most Unstable Array](https://codeforces.com/contest/1353/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1353/A%20-%20Most%20Unstable%20Array/solution.cpp) |
 | 1353C | [Board Moves](https://codeforces.com/contest/1353/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1353/C%20-%20Board%20Moves/solution.cpp) |
 | 1354A | [Alarm Clock](https://codeforces.com/contest/1354/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/A%20-%20Alarm%20Clock/solution.cpp) |
+| 1354C1 | [Simple Polygon Embedding](https://codeforces.com/contest/1354/problem/C1) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/C1%20-%20Simple%20Polygon%20Embedding/solution.cpp) |
 | 1355A | [Sequence with Digits](https://codeforces.com/contest/1355/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/A%20-%20Sequence%20with%20Digits/solution.cpp) |
 | 1355D | [Game With Array](https://codeforces.com/contest/1355/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/D%20-%20Game%20With%20Array/solution.cpp) |
 | 1358A | [Park Lighting](https://codeforces.com/contest/1358/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1358/A%20-%20Park%20Lighting/solution.cpp) |
+| 1358C | [Celex Update](https://codeforces.com/contest/1358/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1358/C%20-%20Celex%20Update/solution.cpp) |
+| 1359A | [Berland Poker](https://codeforces.com/contest/1359/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/A%20-%20Berland%20Poker/solution.cpp) |
+| 1359C | [Mixing Water](https://codeforces.com/contest/1359/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/C%20-%20Mixing%20Water/solution.cpp) |
+| 1360A | [Minimal Square](https://codeforces.com/contest/1360/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/A%20-%20Minimal%20Square/solution.cpp) |
+| 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
+| 1363A | [Odd Selection](https://codeforces.com/contest/1363/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1363/A%20-%20Odd%20Selection/solution.cpp) |
 
 ### number theory
 
@@ -207,6 +253,7 @@
 | 1174C | [Ehab and a Special Coloring Problem](https://codeforces.com/contest/1174/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1174/C%20-%20Ehab%20and%20a%20Special%20Coloring%20Problem/solution.cpp) |
 | 1312A | [Two Regular Polygons](https://codeforces.com/contest/1312/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1312/A%20-%20Two%20Regular%20Polygons/solution.cpp) |
 | 1325A | [EhAb AnD gCd](https://codeforces.com/contest/1325/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1325/A%20-%20EhAb%20AnD%20gCd/solution.cpp) |
+| 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 
 ### schedules
 
@@ -226,6 +273,8 @@
 | 1353B | [Two Arrays And Swaps](https://codeforces.com/contest/1353/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1353/B%20-%20Two%20Arrays%20And%20Swaps/solution.cpp) |
 | 1355B | [Young Explorers](https://codeforces.com/contest/1355/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/B%20-%20Young%20Explorers/solution.cpp) |
 | 1358B | [Maria Breaks the Self-isolation](https://codeforces.com/contest/1358/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1358/B%20-%20Maria%20Breaks%20the%20Self-isolation/solution.cpp) |
+| 1360B | [Honest Coach](https://codeforces.com/contest/1360/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/B%20-%20Honest%20Coach/solution.cpp) |
+| 1360C | [Similar Pairs](https://codeforces.com/contest/1360/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/C%20-%20Similar%20Pairs/solution.cpp) |
 
 ### strings
 
@@ -236,11 +285,18 @@
 | 1284A | [New Year and Naming](https://codeforces.com/contest/1284/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1284/A%20-%20New%20Year%20and%20Naming/solution.cpp) |
 | 1303A | [Erasing Zeroes](https://codeforces.com/contest/1303/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1303/A%20-%20Erasing%20Zeroes/solution.cpp) |
 
+### ternary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1354C1 | [Simple Polygon Embedding](https://codeforces.com/contest/1354/problem/C1) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/C1%20-%20Simple%20Polygon%20Embedding/solution.cpp) |
+
 ### two pointers
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
+| 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
 
 ---
 
