@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/962/problem/A" target="_blank" rel="noopener noreferrer">962A — Equator</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 962A](https://codeforces.com/contest/962/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Equator</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Polycarp has created his own training plan to prepare for the programming contests. He will train for $$$n$$$ days, all days are numbered from $$$1$$$ to $$$n$$$, beginning from the first.</p><p>On the $$$i$$$-th day Polycarp will necessarily solve $$$a_i$$$ problems. One evening Polycarp plans to celebrate the <span class="tex-font-style-it">equator</span>. He will celebrate it on the first evening of such a day that from the beginning of the training and to this day inclusive he will solve half or more of all the problems.</p><p>Determine the index of day when Polycarp will celebrate the equator.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$n$$$ ($$$1 \le n \le 200\,000$$$) — the number of days to prepare for the programming contests.</p><p>The second line contains a sequence $$$a_1, a_2, \dots, a_n$$$ ($$$1 \le a_i \le 10\,000$$$), where $$$a_i$$$ equals to the number of problems, which Polycarp will solve on the $$$i$$$-th day.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print the index of the day when Polycarp will celebrate the equator.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0009300690033376624" id="id00690634050424974" class="input-output-copier">Copy</div></div><pre id="id0009300690033376624">4<br>1 3 2 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0004828818363615739" id="id0019349918573676672" class="input-output-copier">Copy</div></div><pre id="id0004828818363615739">2<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007536052619589588" id="id0024960686356160866" class="input-output-copier">Copy</div></div><pre id="id007536052619589588">6<br>2 2 2 2 2 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003665201628151713" id="id002508753928172679" class="input-output-copier">Copy</div></div><pre id="id003665201628151713">3<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example Polycarp will celebrate the equator on the evening of the second day, because up to this day (inclusive) he will solve $$$4$$$ out of $$$7$$$ scheduled problems on four days of the training.</p><p>In the second example Polycarp will celebrate the equator on the evening of the third day, because up to this day (inclusive) he will solve $$$6$$$ out of $$$12$$$ scheduled problems on six days of the training.</p></div>
