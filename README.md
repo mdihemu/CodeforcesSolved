@@ -6,31 +6,31 @@
 
 | Total Problems | Topics |
 |---|---|
-| 121 | 19 |
+| 136 | 19 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (6)
-- [brute force](#brute-force) (18)
-- [constructive algorithms](#constructive-algorithms) (17)
-- [data structures](#data-structures) (2)
-- [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (6)
+- [brute force](#brute-force) (20)
+- [constructive algorithms](#constructive-algorithms) (21)
+- [data structures](#data-structures) (4)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (8)
 - [games](#games) (5)
 - [geometry](#geometry) (3)
-- [graph matchings](#graph-matchings) (1)
+- [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (36)
-- [implementation](#implementation) (52)
-- [math](#math) (63)
-- [number theory](#number-theory) (10)
+- [greedy](#greedy) (44)
+- [implementation](#implementation) (55)
+- [math](#math) (70)
+- [number theory](#number-theory) (11)
 - [schedules](#schedules) (1)
-- [sortings](#sortings) (12)
-- [strings](#strings) (8)
+- [sortings](#sortings) (15)
+- [strings](#strings) (9)
 - [ternary search](#ternary-search) (1)
-- [two pointers](#two-pointers) (5)
+- [two pointers](#two-pointers) (7)
 
 ---
 
@@ -67,6 +67,8 @@
 | 1364A | [XXXXX](https://codeforces.com/contest/1364/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1364/A%20-%20XXXXX/solution.cpp) |
 | 1368A | [C+=](https://codeforces.com/contest/1368/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1368/A%20-%20C%2B%3D/solution.cpp) |
 | 1368B | [Codeforces Subsequences](https://codeforces.com/contest/1368/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1368/B%20-%20Codeforces%20Subsequences/solution.cpp) |
+| 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
+| 1380C | [Create The Teams](https://codeforces.com/contest/1380/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/C%20-%20Create%20The%20Teams/solution.cpp) |
 
 ### constructive algorithms
 
@@ -89,6 +91,10 @@
 | 1368B | [Codeforces Subsequences](https://codeforces.com/contest/1368/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1368/B%20-%20Codeforces%20Subsequences/solution.cpp) |
 | 1368C | [Even Picture](https://codeforces.com/contest/1368/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1368/C%20-%20Even%20Picture/solution.cpp) |
 | 1370B | [GCD Compression](https://codeforces.com/contest/1370/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/B%20-%20GCD%20Compression/solution.cpp) |
+| 1372A | [Omkar and Completion](https://codeforces.com/contest/1372/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1372/A%20-%20Omkar%20and%20Completion/solution.cpp) |
+| 1375A | [Sign Flipping](https://codeforces.com/contest/1375/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/A%20-%20Sign%20Flipping/solution.cpp) |
+| 1375B | [Neighbor Grid](https://codeforces.com/contest/1375/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/B%20-%20Neighbor%20Grid/solution.cpp) |
+| 1375C | [Element Extermination](https://codeforces.com/contest/1375/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/C%20-%20Element%20Extermination/solution.cpp) |
 
 ### data structures
 
@@ -96,23 +102,28 @@
 |---|---------|------------|----------|
 | 1364A | [XXXXX](https://codeforces.com/contest/1364/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1364/A%20-%20XXXXX/solution.cpp) |
 | 1365C | [Rotation Matching](https://codeforces.com/contest/1365/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1365/C%20-%20Rotation%20Matching/solution.cpp) |
+| 1375C | [Element Extermination](https://codeforces.com/contest/1375/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/C%20-%20Element%20Extermination/solution.cpp) |
+| 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
 
 ### dfs and similar
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 1323A | [Even Subset Sum Problem](https://codeforces.com/contest/1323/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1323/A%20-%20Even%20Subset%20Sum%20Problem/solution.cpp) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.cpp) |
 | 1345B | [Card Constructions](https://codeforces.com/contest/1345/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1345/B%20-%20Card%20Constructions/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1355B | [Young Explorers](https://codeforces.com/contest/1355/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1355/B%20-%20Young%20Explorers/solution.cpp) |
 | 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
+| 1380C | [Create The Teams](https://codeforces.com/contest/1380/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/C%20-%20Create%20The%20Teams/solution.cpp) |
 
 ### games
 
@@ -136,6 +147,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 1360C | [Similar Pairs](https://codeforces.com/contest/1360/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/C%20-%20Similar%20Pairs/solution.cpp) |
 
 ### graphs
@@ -149,6 +161,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 | 1238B | [Kill `Em All](https://codeforces.com/contest/1238/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1238/B%20-%20Kill%20%60Em%20All/solution.cpp) |
 | 1287A | [Angry Students](https://codeforces.com/contest/1287/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1287/A%20-%20Angry%20Students/solution.cpp) |
@@ -183,7 +196,14 @@
 | 1369B | [AccurateLee](https://codeforces.com/contest/1369/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1369/B%20-%20AccurateLee/solution.cpp) |
 | 1369C | [RationalLee](https://codeforces.com/contest/1369/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1369/C%20-%20RationalLee/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
+| 1371C | [A Cookie for You](https://codeforces.com/contest/1371/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1371/C%20-%20A%20Cookie%20for%20You/solution.cpp) |
+| 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
 | 1373A | [Donut Shops](https://codeforces.com/contest/1373/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1373/A%20-%20Donut%20Shops/solution.cpp) |
+| 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
+| 1375B | [Neighbor Grid](https://codeforces.com/contest/1375/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/B%20-%20Neighbor%20Grid/solution.cpp) |
+| 1375C | [Element Extermination](https://codeforces.com/contest/1375/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/C%20-%20Element%20Extermination/solution.cpp) |
+| 1380B | [Universal Solution](https://codeforces.com/contest/1380/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/B%20-%20Universal%20Solution/solution.cpp) |
+| 1380C | [Create The Teams](https://codeforces.com/contest/1380/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/C%20-%20Create%20The%20Teams/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### implementation
@@ -241,7 +261,10 @@
 | 1368A | [C+=](https://codeforces.com/contest/1368/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1368/A%20-%20C%2B%3D/solution.cpp) |
 | 1369B | [AccurateLee](https://codeforces.com/contest/1369/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1369/B%20-%20AccurateLee/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
+| 1371C | [A Cookie for You](https://codeforces.com/contest/1371/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1371/C%20-%20A%20Cookie%20for%20You/solution.cpp) |
+| 1372A | [Omkar and Completion](https://codeforces.com/contest/1372/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1372/A%20-%20Omkar%20and%20Completion/solution.cpp) |
 | 1373A | [Donut Shops](https://codeforces.com/contest/1373/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1373/A%20-%20Donut%20Shops/solution.cpp) |
+| 1380C | [Create The Teams](https://codeforces.com/contest/1380/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/C%20-%20Create%20The%20Teams/solution.cpp) |
 
 ### math
 
@@ -307,9 +330,16 @@
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1370B | [GCD Compression](https://codeforces.com/contest/1370/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/B%20-%20GCD%20Compression/solution.cpp) |
 | 1370C | [Number Game](https://codeforces.com/contest/1370/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/C%20-%20Number%20Game/solution.cpp) |
+| 1371A | [Magical Sticks](https://codeforces.com/contest/1371/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1371/A%20-%20Magical%20Sticks/solution.cpp) |
+| 1371B | [Magical Calendar](https://codeforces.com/contest/1371/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1371/B%20-%20Magical%20Calendar/solution.cpp) |
+| 1371C | [A Cookie for You](https://codeforces.com/contest/1371/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1371/C%20-%20A%20Cookie%20for%20You/solution.cpp) |
+| 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
 | 1373A | [Donut Shops](https://codeforces.com/contest/1373/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1373/A%20-%20Donut%20Shops/solution.cpp) |
+| 1373C | [Pluses and Minuses](https://codeforces.com/contest/1373/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1373/C%20-%20Pluses%20and%20Minuses/solution.cpp) |
 | 1374A | [Required Remainder](https://codeforces.com/contest/1374/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/A%20-%20Required%20Remainder/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
+| 1374D | [Zero Remainder Array](https://codeforces.com/contest/1374/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/D%20-%20Zero%20Remainder%20Array/solution.cpp) |
+| 1375A | [Sign Flipping](https://codeforces.com/contest/1375/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1375/A%20-%20Sign%20Flipping/solution.cpp) |
 
 ### number theory
 
@@ -325,6 +355,7 @@
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1370B | [GCD Compression](https://codeforces.com/contest/1370/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/B%20-%20GCD%20Compression/solution.cpp) |
 | 1370C | [Number Game](https://codeforces.com/contest/1370/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1370/C%20-%20Number%20Game/solution.cpp) |
+| 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
 
 ### schedules
 
@@ -336,6 +367,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 1092B | [Teams Forming](https://codeforces.com/contest/1092/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1092/B%20-%20Teams%20Forming/solution.cpp) |
 | 1174B | [Ehab Is an Odd Person](https://codeforces.com/contest/1174/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1174/B%20-%20Ehab%20Is%20an%20Odd%20Person/solution.cpp) |
 | 1206A | [Choose Two Numbers](https://codeforces.com/contest/1206/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1206/A%20-%20Choose%20Two%20Numbers/solution.cpp) |
@@ -348,6 +380,8 @@
 | 1360B | [Honest Coach](https://codeforces.com/contest/1360/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/B%20-%20Honest%20Coach/solution.cpp) |
 | 1360C | [Similar Pairs](https://codeforces.com/contest/1360/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1360/C%20-%20Similar%20Pairs/solution.cpp) |
 | 1369C | [RationalLee](https://codeforces.com/contest/1369/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1369/C%20-%20RationalLee/solution.cpp) |
+| 1374D | [Zero Remainder Array](https://codeforces.com/contest/1374/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/D%20-%20Zero%20Remainder%20Array/solution.cpp) |
+| 1380C | [Create The Teams](https://codeforces.com/contest/1380/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1380/C%20-%20Create%20The%20Teams/solution.cpp) |
 
 ### strings
 
@@ -361,6 +395,7 @@
 | 1367A | [Short Substrings](https://codeforces.com/contest/1367/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1367/A%20-%20Short%20Substrings/solution.cpp) |
 | 1368B | [Codeforces Subsequences](https://codeforces.com/contest/1368/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1368/B%20-%20Codeforces%20Subsequences/solution.cpp) |
 | 1369B | [AccurateLee](https://codeforces.com/contest/1369/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1369/B%20-%20AccurateLee/solution.cpp) |
+| 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 
 ### ternary search
 
@@ -372,11 +407,13 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1359B | [New Theatre Square](https://codeforces.com/contest/1359/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1359/B%20-%20New%20Theatre%20Square/solution.cpp) |
 | 1364A | [XXXXX](https://codeforces.com/contest/1364/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1364/A%20-%20XXXXX/solution.cpp) |
 | 1366B | [Shuffle](https://codeforces.com/contest/1366/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1366/B%20-%20Shuffle/solution.cpp) |
 | 1369C | [RationalLee](https://codeforces.com/contest/1369/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1369/C%20-%20RationalLee/solution.cpp) |
+| 1374D | [Zero Remainder Array](https://codeforces.com/contest/1374/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/mdihemu/CodeforcesSolved/blob/HEAD/1374/D%20-%20Zero%20Remainder%20Array/solution.cpp) |
 
 ---
 
