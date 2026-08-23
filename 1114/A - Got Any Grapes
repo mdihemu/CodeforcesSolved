@@ -1,17 +1,22 @@
-<h2><a href="https://codeforces.com/contest/1114/problem/A" target="_blank" rel="noopener noreferrer">1114A — Got Any Grapes?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++17 (GCC 7-32) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1114A](https://codeforces.com/contest/1114/problem/A) |
-
-## Topics
-`brute force` `greedy` `implementation`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Got Any Grapes?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><div class="epigraph"><div class="epigraph-text"><a href="https://www.youtube.com/watch?v=MtN1YnoL46Q">The Duck song</a></div></div><p>For simplicity, we'll assume that there are only three types of grapes: green grapes, purple grapes and black grapes.</p><p>Andrew, Dmitry and Michal are all grapes' lovers, however their preferences of grapes are different. To make all of them happy, the following should happen:</p><ul><li> Andrew, Dmitry and Michal should eat at least $$$x$$$, $$$y$$$ and $$$z$$$ grapes, respectively.</li><li> Andrew has an extreme affinity for green grapes, thus he will eat green grapes and green grapes only.</li><li> On the other hand, Dmitry is not a fan of black grapes — any types of grapes except black would do for him. In other words, Dmitry can eat green and purple grapes.</li><li> Michal has a common taste — he enjoys grapes in general and will be pleased with any types of grapes, as long as the quantity is sufficient.</li></ul><p>Knowing that his friends are so fond of grapes, Aki decided to host a grape party with them. He has prepared a box with $$$a$$$ green grapes, $$$b$$$ purple grapes and $$$c$$$ black grapes.</p><p>However, Aki isn't sure if the box he prepared contains enough grapes to make everyone happy. Can you please find out whether it's possible to distribute grapes so that everyone is happy or Aki has to buy some more grapes?</p><p>It is not required to distribute all the grapes, so it's possible that some of them will remain unused.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains three integers $$$x$$$, $$$y$$$ and $$$z$$$ ($$$1 \le x, y, z \le 10^5$$$) — the number of grapes Andrew, Dmitry and Michal want to eat.</p><p>The second line contains three integers $$$a$$$, $$$b$$$, $$$c$$$ ($$$1 \le a, b, c \le 10^5$$$) — the number of green, purple and black grapes in the box.</p></div><div class="output-specification"><div class="section-title">Output</div><p>If there is a grape distribution that allows everyone to be happy, print "<span class="tex-font-style-tt">YES</span>", otherwise print "<span class="tex-font-style-tt">NO</span>".</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006863699373030887" id="id0037036870117526033" class="input-output-copier">Copy</div></div><pre id="id006863699373030887">1 6 2<br>4 3 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005948019623976922" id="id0032404855772484165" class="input-output-copier">Copy</div></div><pre id="id005948019623976922">YES<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002294313262589499" id="id006441645296259405" class="input-output-copier">Copy</div></div><pre id="id002294313262589499">5 1 1<br>4 3 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009594841227967533" id="id009950062272365733" class="input-output-copier">Copy</div></div><pre id="id009594841227967533">NO<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example, there is only one possible distribution:</p><p>Andrew should take $$$1$$$ green grape, Dmitry should take $$$3$$$ remaining green grapes and $$$3$$$ purple grapes, and Michal will take $$$2$$$ out of $$$3$$$ available black grapes.</p><p>In the second test, there is no possible distribution, since Andrew is not be able to eat enough green grapes. :(</p></div>
+#include<bits/stdc++.h>
+using namespace std;
+ 
+#define int long long
+#define endl "
+"
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+ 
+void solve();
+int32_t main()
+{
+    IOS;
+    int x,y,z,a,b,c;
+    cin >> x >> y >> z;
+    cin >> a >> b >> c;
+    if(a>=x && (a+b)>=(x+y) && (a+b+c)>=(x+y+z))
+        cout << "YES
+";
+    else
+        cout << "NO
+";
+}
