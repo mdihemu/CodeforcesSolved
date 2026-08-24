@@ -1,38 +1,55 @@
-<h2><a href="https://codeforces.com/contest/1619/problem/A" target="_blank" rel="noopener noreferrer">1619A — Square String?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++17 (GCC 7-32) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1619A](https://codeforces.com/contest/1619/problem/A) |
-
-## Topics
-`implementation` `strings`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Square String?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A string is called <span class="tex-font-style-it">square</span> if it is some string written twice in a row. For example, the strings "<span class="tex-font-style-tt">aa</span>", "<span class="tex-font-style-tt">abcabc</span>", "<span class="tex-font-style-tt">abab</span>" and "<span class="tex-font-style-tt">baabaa</span>" are square. But the strings "<span class="tex-font-style-tt">aaa</span>", "<span class="tex-font-style-tt">abaaab</span>" and "<span class="tex-font-style-tt">abcdabc</span>" are not square.</p><p>For a given string $$$s$$$ determine if it is square.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input data contains an integer $$$t$$$ ($$$1 \le t \le 100$$$) —the number of test cases.</p><p>This is followed by $$$t$$$ lines, each containing a description of one test case. The given strings consist only of lowercase Latin letters and have lengths between $$$1$$$ and $$$100$$$ inclusive.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output on a separate line:</p><ul> <li> <span class="tex-font-style-tt">YES</span> if the string in the corresponding test case is square, </li><li> <span class="tex-font-style-tt">NO</span> otherwise. </li></ul><p>You can output <span class="tex-font-style-tt">YES</span> and <span class="tex-font-style-tt">NO</span> in any case (for example, strings <span class="tex-font-style-tt">yEs</span>, <span class="tex-font-style-tt">yes</span>, <span class="tex-font-style-tt">Yes</span> and <span class="tex-font-style-tt">YES</span> will be recognized as a positive response).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0017910434111490914" id="id0004962605147189003" class="input-output-copier">Copy</div></div><pre id="id0017910434111490914">10
-a
-aa
-aaa
-aaaa
-abab
-abcabc
-abacaba
-xxyy
-xyyx
-xyxy
-</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007909728242544517" id="id0023337114841752105" class="input-output-copier">Copy</div></div><pre id="id007909728242544517">NO
-YES
-NO
-YES
-YES
-YES
-NO
-NO
-NO
-YES
-</pre></div></div></div>
+#include<bits/stdc++.h>
+using namespace std;
+ 
+#define     IOS         ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define     int         long long
+#define     endl        "
+"
+#define     PI          acos(-1.0)
+#define     IN          freopen("input.txt",'r',stdin)
+ 
+const int MOD = 1e9+7;
+const int INF = 2e5+5;
+const int N = 205;
+ 
+void solve();
+int32_t main()
+{
+    IOS;
+    cout << fixed << setprecision(10);
+    int _ = 1;
+    cin >> _;
+    while(_--) solve();
+    return 0;
+}
+ 
+void solve()
+{
+    string s;
+    cin >> s;
+    int n = s.size();
+    if(n%2){
+        cout << "NO
+";
+        return;
+    }
+    int m = n/2;
+    string t = "", tt = "";
+    for(int i=0;i<m;i++){
+        t += s[i];
+    }
+    for(int i=m;i<n;i++){
+        tt += s[i];
+    }
+    if(t == tt){
+        cout << "YES
+";
+    }
+    else{
+        cout << "NO
+";
+    }
+}
+ 
+///Must see the constraints range
+///Calculate the Time
