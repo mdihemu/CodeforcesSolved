@@ -1,0 +1,27 @@
+<h2><a href="https://codeforces.com/contest/1618/problem/F" target="_blank" rel="noopener noreferrer">1618F — Reverse</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2000 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1618F](https://codeforces.com/contest/1618/problem/F) |
+
+## Topics
+`bitmasks` `constructive algorithms` `dfs and similar` `implementation` `math` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">F. Reverse</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given two positive integers $$$x$$$ and $$$y$$$. You can perform the following operation with $$$x$$$: write it in its binary form without leading zeros, add $$$0$$$ or $$$1$$$ to the right of it, reverse the binary form and turn it into a decimal number which is assigned as the new value of $$$x$$$.</p><p>For example: </p><ul> <li> $$$34$$$ can be turned into $$$81$$$ via one operation: the binary form of $$$34$$$ is $$$100010$$$, if you add $$$1$$$, reverse it and remove leading zeros, you will get $$$1010001$$$, which is the binary form of $$$81$$$. </li><li> $$$34$$$ can be turned into $$$17$$$ via one operation: the binary form of $$$34$$$ is $$$100010$$$, if you add $$$0$$$, reverse it and remove leading zeros, you will get $$$10001$$$, which is the binary form of $$$17$$$. </li><li> $$$81$$$ can be turned into $$$69$$$ via one operation: the binary form of $$$81$$$ is $$$1010001$$$, if you add $$$0$$$, reverse it and remove leading zeros, you will get $$$1000101$$$, which is the binary form of $$$69$$$. </li><li> $$$34$$$ can be turned into $$$69$$$ via two operations: first you turn $$$34$$$ into $$$81$$$ and then $$$81$$$ into $$$69$$$. </li></ul><p>Your task is to find out whether $$$x$$$ can be turned into $$$y$$$ after a certain number of operations (possibly zero).</p></div><div class="input-specification"><div class="section-title">Input</div><p>The only line of the input contains two integers $$$x$$$ and $$$y$$$ ($$$1 \le x, y \le 10^{18}$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print <span class="tex-font-style-tt">YES</span> if you can make $$$x$$$ equal to $$$y$$$ and <span class="tex-font-style-tt">NO</span> if you can't.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00012849880252653767" id="id006793036370043308" class="input-output-copier">Copy</div></div><pre id="id00012849880252653767">3 3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002781544043628271" id="id0017780642017743653" class="input-output-copier">Copy</div></div><pre id="id002781544043628271">YES
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id001578750715324213" id="id005629169307929147" class="input-output-copier">Copy</div></div><pre id="id001578750715324213">7 4
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009462922806167033" id="id00789385891361981" class="input-output-copier">Copy</div></div><pre id="id009462922806167033">NO
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0083228135053599" id="id0022486419396034885" class="input-output-copier">Copy</div></div><pre id="id0083228135053599">2 8
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0038989935267452047" id="id007415214814093338" class="input-output-copier">Copy</div></div><pre id="id0038989935267452047">NO
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004931609832537064" id="id007205185061679369" class="input-output-copier">Copy</div></div><pre id="id004931609832537064">34 69
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008675193736444651" id="id006082504784153168" class="input-output-copier">Copy</div></div><pre id="id008675193736444651">YES
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008216815884542872" id="id002614456627415598" class="input-output-copier">Copy</div></div><pre id="id008216815884542872">8935891487501725 71487131900013807
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001866121232517478" id="id008761496899177198" class="input-output-copier">Copy</div></div><pre id="id001866121232517478">YES
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example, you don't even need to do anything.</p><p>The fourth example is described in the statement.</p></div>
