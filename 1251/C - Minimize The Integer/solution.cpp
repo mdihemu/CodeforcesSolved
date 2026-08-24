@@ -1,0 +1,76 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+#define     IOS             ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define     int             long long
+#define     endl            "
+"
+#define     PI              acos(-1.0)
+#define     IN              freopen("input.txt",'r',stdin)
+ 
+const int MOD = 1e9+7;
+const int INF = 2e5+5;
+const int N = 205;
+ 
+int BIGMOD(int b, int p)
+{
+    int ans = 1 % MOD, x = b % MOD;
+    while(p){
+        if(p&1)ans = (ans * x)%MOD;
+        x = (x*x)%MOD;
+        p >>= 1LL;
+    }
+    return ans;
+}
+ 
+void solve();
+int32_t main()
+{
+    IOS;
+    cout << fixed << setprecision(10);
+    int _ = 1;
+    cin >> _;
+    while(_--) solve();
+    return 0;
+}
+ 
+void solve()
+{
+    string s;
+    cin >> s;
+    queue<char>even, odd;
+    for(char ch:s){
+        if((ch - '0') % 2 == 0){
+            even.push(ch);
+        }
+        else{
+            odd.push(ch);
+        }
+    }
+ 
+    string t = "";
+    while(!even.empty() || !odd.empty()){
+        if(even.empty()){
+            t += odd.front();
+            odd.pop();
+        }
+        else if(odd.empty()){
+            t += even.front();
+            even.pop();
+        }
+        else{
+            if(even.front() < odd.front()){
+                t += even.front();
+                even.pop();
+            }
+            else{
+                t += odd.front();
+                odd.pop();
+            }
+        }
+    }
+    cout << t << endl;
+}
+ 
+///Must see the constraints range
+///Calculate the Time
